@@ -35,3 +35,4 @@ FINAL_DATASET_TRAFFIC_LIGHT  # train dataset
 ## ML Flow Integration 
 * mlflow ui --> to check logs
 
+* Download the training and validation dataset from [Google Drive Link](https://drive.google.com/drive/folders/1NovbAleiGQYiy8Rj3PKlK_FV0JjL_yyv?usp=drive_link)
