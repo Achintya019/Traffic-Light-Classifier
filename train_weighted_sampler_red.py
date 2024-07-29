@@ -128,8 +128,8 @@ def train_model(model, train_dataloader, val_dataloader, criterion, optimizer_mo
 
 if __name__ == "__main__":
     
-    # Set the tracking URI to the MLflow server
-    mlflow.set_tracking_uri("http://10.10.10.210:5001")
+    # Set the tracking URI to the MLflow server on a different host id
+    #mlflow.set_tracking_uri("http://10.10.10.210:5001")
     
     # Initialize mlflow with run name
     run_name = f"run_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
